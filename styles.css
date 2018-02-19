@@ -1,0 +1,24 @@
+.reveal .slides section.present {
+	height: 100%;
+}
+
+.reveal h1 {
+  font-size : 55px;
+
+}
+
+.reveal p {
+	font-size: 20px;
+}
+
+.reveal .plus {
+	font-size: 30px;
+	position: absolute;
+	bottom: 30px;
+	text-align: center;
+	width: 100%;
+}
+
+.reveal h1 {
+	color: red;
+}
