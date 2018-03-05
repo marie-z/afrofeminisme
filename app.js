@@ -21,7 +21,7 @@ function startPrenomsAnimation () {
 		}
 		document.getElementById('prenoms-animate').textContent = prenoms[prenomsCurrent]
 		prenomsCurrent++;
-	}, 400);
+	}, 375);
 }
 
 function stopPrenomsAnimation () {
@@ -37,9 +37,9 @@ function findBackground(el) {
 
 function updateBackground(url) {
 	if (url !== null) {
-		document.querySelector('.reveal-bg').style.backgroundImage = 'url(' + url + ')'
+		document.querySelector('.blur-bg').style.backgroundImage = 'url(' + url + ')'
 	} else {
-		document.querySelector('.reveal-bg').style.backgroundImage = null		
+		document.querySelector('.blur-bg').style.backgroundImage = null		
 	}
 }
 
