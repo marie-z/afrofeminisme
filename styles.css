@@ -1,6 +1,3 @@
-.reveal .slides section.present {
-	height: 100%;
-}
 
 .reveal h1 {
   font-size : 55px;
@@ -20,5 +17,5 @@
 }
 
 .reveal h1 {
-	color: red;
+	color: black;
 }

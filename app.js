@@ -8,10 +8,9 @@ Reveal.initialize({
 	mouseWheel: true,
 	width: 320,
 	height: 568,
-	center: false
 });
 
-var prenoms = ['Hana', 'Océane', 'Mélina', 'Laury Ann', 'Émilie', 'Awa', 'Aminata', 'Migna', 'Sena', 'Clarisse', 'George', 'Angela', 'Laura', 'Wendie', 'Mel'];
+var prenoms = ['Hana', 'Océane', 'Mélina', 'Laury Ann', 'Émilie', 'Awa', 'Aminata', 'Migna', 'Sena', 'Clarisse', 'George', 'Angela', 'Laura', 'Wendie', 'Mel', 'Bernadette'];
 var prenomsCurrent = 0;
 var prenomsInterval;
 
