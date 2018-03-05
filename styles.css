@@ -1,8 +1,25 @@
+.reveal-bg {
+	position: fixed;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: center center no-repeat;
+	background-size:cover;
+	filter: blur(10px);
+}
+
+.reveal .slides section.present {
+	height: 100%;
+}
 
 .reveal h1 {
   font-size : 55px;
+  font-family: 'Josefin Sans', sans-serif;
+  hyphens: auto
 
 }
+
 
 .reveal p {
 	font-size: 20px;
