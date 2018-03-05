@@ -23,7 +23,9 @@
 
 .reveal p {
 	font-size: 20px;
+	font-family: 'Roboto';
 }
+
 
 .reveal .plus {
 	margin-top:20vh;
@@ -33,4 +35,19 @@
 
 .reveal h1 {
 	color: black;
+}
+
+.reveal h3 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-color: black;
+}
+
+.reveal #intro {
+	font-size: 30px;
+}
+
+.fragment.fade-in {
+	margin-right : 20px;
+	margin-left : 20px;
+	font-size: 20px;
 }
