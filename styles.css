@@ -35,6 +35,7 @@
 
 .reveal h1 {
 	color: black;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .reveal h3 {
@@ -46,24 +47,16 @@
 	font-size: 30px;
 }
 
-.fragment.fade-in {
+.reveal .fragment.fade-in {
 	margin-right : 20px;
 	margin-left : 20px;
 	font-size: 20px;
 }
 
-.scrollable {
-	overflow-y: auto !important;
-	overflow-x: hidden !important;
-	height: 700px;
-}
-
 .reveal .temoignages {
-	font-size: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	font-size: 12px;
+	margin-right: 20px;
+	margin-left: 20px;
 }
 
 .reveal .signature {
@@ -72,9 +65,17 @@
 	font-style: bold;
 }
 
-.temoignages .fragment.fade-in {
+.reveal .temoignages .fragment.fade-in {
+	font-family: Roboto, sans-serif;
 	font-size: 10px;
 	font-style: bold;
 	margin-right: 10px;
 	margin-left: 10px;
+}
+
+.reveal .signature.Melina {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 8px;
+	font-style: bold;
+	font-color: rgb(20, 172, 0);
 }

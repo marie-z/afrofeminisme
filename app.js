@@ -1,5 +1,5 @@
 Reveal.initialize({
-	controls: false,
+	controls: true,
 	controlsTutorial: true,
 	progress: true,
 	keyboard: true,
@@ -7,7 +7,7 @@ Reveal.initialize({
 	touch: true,
 	mouseWheel: true,
 	width: 320,
-	height: 568,
+	height: 568
 });
 
 var prenoms = ['Hana', 'Océane', 'Mélina', 'Laury Ann', 'Émilie', 'Awa', 'Aminata', 'Migna', 'Sena', 'Clarisse', 'George', 'Angela', 'Laura', 'Wendie', 'Mel', 'Bernadette', 'Liva'];
@@ -57,4 +57,9 @@ Reveal.addEventListener( 'slidechanged', function( event ) {
 		stopPrenomsAnimation()
 	}
 	updateBackground(findBackground(event.currentSlide))
+	if (event.currentSlide.dataset.autoslide) {
+		setTimeout(function() {
+			Reveal.right();
+		}, parseInt(event.currentSlide.dataset.autoslide))
+	}
 });
