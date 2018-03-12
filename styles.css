@@ -21,7 +21,7 @@
 }
 
 
-.reveal p {
+.reveal .intro {
 	font-size: 20px;
 	font-family: 'Roboto';
 }
@@ -50,4 +50,31 @@
 	margin-right : 20px;
 	margin-left : 20px;
 	font-size: 20px;
+}
+
+.scrollable {
+	overflow-y: auto !important;
+	overflow-x: hidden !important;
+	height: 700px;
+}
+
+.reveal .temoignages {
+	font-size: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.reveal .signature {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 8px;
+	font-style: bold;
+}
+
+.temoignages .fragment.fade-in {
+	font-size: 10px;
+	font-style: bold;
+	margin-right: 10px;
+	margin-left: 10px;
 }
