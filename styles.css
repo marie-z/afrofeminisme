@@ -54,20 +54,20 @@
 }
 
 .reveal .temoignages {
-	font-size: 14px;
+	font-size: 12px;
 	margin-right: 20px;
 	margin-left: 20px;
 }
 
 .reveal .signature {
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 12px;
+	font-size: 10px;
 	font-style: bold;
 }
 
 .reveal .temoignages .fragment.fade-in {
 	font-family: Roboto, sans-serif;
-	font-size: 12px;
+	font-size: 10px;
 	font-style: bold;
 	margin-right: 10px;
 	margin-left: 10px;
