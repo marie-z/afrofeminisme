@@ -69,10 +69,16 @@
 	font-style: bold;
 }
 
-.reveal .temoignages .fragment {
+.reveal .fragment {
 	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
 	font-style: bold;
 	margin-right: 10px;
 	margin-left: 10px;
+}
+
+.reveal b {
+	font-weight: normal;
+	background-color: black;
+	color: white;
 }
