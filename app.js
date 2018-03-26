@@ -50,7 +50,10 @@ Reveal.addEventListener( 'ready', function( event ) {
 	}
 });
 
+var autoslideTimer;
+
 Reveal.addEventListener( 'slidechanged', function( event ) {
+	if (autoslideTimer) { clearTimeout(autoslideTimer); }
 	if (event.indexh === 1 && event.indexv === 0) {
 		startPrenomsAnimation()
 	} else if (prenomsInterval !== null) {
@@ -58,7 +61,7 @@ Reveal.addEventListener( 'slidechanged', function( event ) {
 	}
 	updateBackground(findBackground(event.currentSlide))
 	if (event.currentSlide.dataset.autoslide) {
-		setTimeout(function() {
+		autoslideTimer = setTimeout(function() {
 			Reveal.right();
 		}, parseInt(event.currentSlide.dataset.autoslide))
 	}

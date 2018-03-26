@@ -9,8 +9,12 @@
 	filter: blur(10px);
 }
 
-.reveal .slides section.present {
-	
+.reveal {
+	font-family: 'Roboto', sans-serif;
+}
+
+.reveal .slides {
+	font-family: 'Roboto', sans-serif;
 }
 
 .reveal h1 {
@@ -23,7 +27,7 @@
 
 .reveal .intro {
 	font-size: 20px;
-	font-family: 'Roboto';
+	font-family: 'Roboto', sans-serif;
 }
 
 
@@ -65,8 +69,8 @@
 	font-style: bold;
 }
 
-.reveal .temoignages .fragment.fade-in {
-	font-family: Roboto, sans-serif;
+.reveal .temoignages .fragment {
+	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
 	font-style: bold;
 	margin-right: 10px;
