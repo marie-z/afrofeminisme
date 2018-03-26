@@ -63,6 +63,20 @@
 	margin-left: 10px;
 }
 
+.reveal .temoignages.left {
+	font-size: 15px;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-align: left;
+}
+
+.reveal .temoignages.right {
+	font-size: 15px;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-align: right;
+}
+
 .reveal .signature {
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 12px;
