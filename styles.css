@@ -63,14 +63,14 @@
 	margin-left: 10px;
 }
 
-.reveal .temoignages.left {
+.reveal .temoignages .left {
 	font-size: 15px;
 	margin-right: 10px;
 	margin-left: 10px;
 	text-align: left;
 }
 
-.reveal .temoignages.right {
+.reveal .temoignages .right {
 	font-size: 15px;
 	margin-right: 10px;
 	margin-left: 10px;
@@ -95,4 +95,22 @@
 	font-weight: normal;
 	background-color: black;
 	color: white;
+}
+
+.reveal .credits {
+	font-weight: normal;
+	background-color: black;
+	color: white;
+	font-size:15px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.reveal .credits b {
+	font-weight: normal;
+	background-color: black;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
 }
