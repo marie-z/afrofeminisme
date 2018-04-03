@@ -101,16 +101,40 @@
 	font-weight: normal;
 	background-color: black;
 	color: white;
-	font-size:15px;
-	padding-right: 10px;
-	padding-left: 10px;
+	font-size:30px;
+	margin-right: 10px;
+	margin-left: 10px;
 	padding-top: 10px;
-	padding-bottom: 10px;
+	margin-bottom: 10px;
 }
 
-.reveal .credits b {
-	font-weight: normal;
-	background-color: black;
-	color: white;
-	font-family: 'Josefin Sans', sans-serif;
+
+.reveal .wrapper {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: black;
+  animation: 30s credits linear infinite;
+  margin-right: 20px;
+	margin-left: 20px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+
+.reveal .wrapper .job {
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.reveal .wrapper .name {
+  font-size: 15px;
+  font-family:'Roboto', sans-serif;
+}
+
+@keyframes credits {
+    0% { top:  100%; }
+  100% { top: -500%; }
 }
