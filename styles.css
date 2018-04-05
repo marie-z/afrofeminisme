@@ -114,7 +114,8 @@
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
   text-align: center;
-  color: black;
+  background-color:black;
+  color: white;
   animation: 30s credits linear infinite;
   margin-right: 20px;
 	margin-left: 20px;
@@ -135,6 +136,6 @@
 }
 
 @keyframes credits {
-    0% { top:  100%; }
-  100% { top: -500%; }
+    0% { top:  2000%; }
+  100% { top: -2500%; }
 }
