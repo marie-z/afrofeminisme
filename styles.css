@@ -47,9 +47,30 @@
 	font-color: black;
 }
 
-.reveal #intro {
-	font-size: 30px;
+.reveal .intro {
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	margin-right: 20px;
+	margin-left: 20px;
 }
+
+.reveal .tuto {
+	font-size: 30px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: bold;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.reveal .tuto .petit {
+	font-size: 14px;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
+
+
 
 .reveal .fragment.fade-in {
 	margin-right : 10px;
@@ -136,6 +157,6 @@
 }
 
 @keyframes credits {
-    0% { top:  2000%; }
-  100% { top: -2500%; }
+    0% { top:  4000%; }
+  100% { top: -5000%; }
 }
