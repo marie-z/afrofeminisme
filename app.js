@@ -46,6 +46,14 @@ function updateBackground(url) {
 	}
 }
 
+function watchPlayers() {
+	$('audio, video').filter(':not(.not-autoslide)').each(function() {
+		$(this).on('ended', Reveal.next);
+	})
+}
+
+$(document).ready(watchPlayers);
+
 Reveal.addEventListener( 'ready', function( event ) {
 	if (Reveal.isFirstSlide()) {
 		startPrenomsAnimation()
