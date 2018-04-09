@@ -24,6 +24,17 @@
 
 }
 
+.reveal section img.arrow {
+	background: transparent;
+	border: none;
+	box-shadow: none;
+}
+
+.arrow {
+	background: transparent;
+	border: none;
+	box-shadow: none;
+}
 
 .reveal #intro {
 	font-size: 20px;
@@ -146,7 +157,7 @@
   text-align: center;
   background-color:black;
   color: white;
-  animation: 30s credits linear infinite;
+  animation: 50s credits linear infinite;
   margin-right: 20px;
 	margin-left: 20px;
 	padding-top: 10px;
@@ -166,6 +177,6 @@
 }
 
 @keyframes credits {
-    0% { top:  4000%; }
+    0% { top:  1000%; }
   100% { top: -5000%; }
 }
