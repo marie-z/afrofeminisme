@@ -25,11 +25,21 @@
 }
 
 
-.reveal .intro {
+.reveal #intro {
 	font-size: 20px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-right: 20px;
+	margin-left: 20px;
 }
 
+.reveal .fragment .fade-in .tuto {
+	font-size: 12px;
+	margin-right: 20px;
+	margin-left: 20px;
+	position: static;
+	bottom: 10px; 
+	width: 50%;
+}
 
 .reveal .plus {
 	margin-top:20vh;
@@ -55,7 +65,7 @@
 }
 
 .reveal .tuto {
-	font-size: 30px;
+	font-size: 20px;
 	font-family: 'Josefin Sans', sans-serif;
 	font-style: bold;
 	margin-right: 30px;
