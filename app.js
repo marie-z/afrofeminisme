@@ -7,7 +7,7 @@ Reveal.initialize({
 	touch: true,
 	mouseWheel: true,
 	width: 320,
-	height: 568
+	height: 568,
 });
 
 Reveal.addEventListener( 'overviewshown', function( event ) { /* ... */ } );
