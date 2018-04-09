@@ -90,6 +90,19 @@
 	margin-bottom: 5px;
 }
 
+.reveal .suivant {
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.reveal .flotte {
+	float: right;
+	margin-right: 5px;
+	padding-bottom: 5px;
+	padding-top: 200px;
+
+}
 
 
 .reveal .fragment.fade-in {
