@@ -168,8 +168,7 @@ audio {
 	color: white;
 }
 
-.reveal .credits {
-	font-weight: normal;
+.reveal .wrapper .credits {
 	background-color: black;
 	color: white;
 	font-size:50px;
@@ -181,6 +180,7 @@ audio {
 
 
 .reveal .wrapper {
+font-size: 15px;
   position: absolute;
   font-family: 'Roboto', sans-serif;
   text-align: center;
