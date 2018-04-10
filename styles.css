@@ -200,6 +200,6 @@ audio {
 }
 
 @keyframes credits {
-    0% { top:  1000%; }
-  100% { top: -5000%; }
+    0% { top:  2000%; }
+  100% { top: -3000%; }
 }
